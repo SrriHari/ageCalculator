@@ -46,7 +46,7 @@ function App() {
           value={date.toISOString().split("T")[0]}
           onChange={handleChange}
         />
-        <p style={{ fontWeight: "bolder" }}>
+        <p className="age" style={{ fontWeight: "bolder" }}>
           <span style={{ color: "rgb(247, 139, 182)", fontSize: "large" }}>
             Age:
           </span>{" "}
