@@ -39,6 +39,7 @@ function App() {
 
   return (
     <main>
+      <div className="head">Age Calculator</div>
       <div className="container">
         <div className="bir">Your Birth Date</div>
         <input

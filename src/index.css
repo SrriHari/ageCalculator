@@ -8,6 +8,18 @@ input{
   margin-top: 0%;
 }
 
+.head{
+  color: rgb(241, 111, 144);
+  background-color: whitesmoke;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top: 2px solid rgb(249, 98, 158);
+  border-right: 2px solid rgb(249, 98, 158);
+  border-left: 2px solid rgb(249, 98, 158);
+  font-size: large;
+  padding: 5px;
+}
+
 .bir{
   margin-bottom: 0;
   font-size: medium;
@@ -76,6 +88,9 @@ main{
       width: 280px;
       display: flex;
       justify-content: center;
-      /* justify-self: center; */
+    }
+
+    .head{
+      font-size: medium;
     }
 }
